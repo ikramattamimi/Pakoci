@@ -5,7 +5,8 @@
     "singularName": "page",
     "pluralName": "pages",
     "displayName": "Page",
-    "name": "page"
+    "name": "page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -30,7 +31,7 @@
       "type": "component",
       "repeatable": false,
       "component": "meta.metadata",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
